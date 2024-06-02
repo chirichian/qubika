@@ -47,6 +47,10 @@ Before starting the process, run the following command to start mlflow server lo
 In our case, we are going to run MlFlow in the port 5050 locally.
 If you want to change the port, you can change the port in the command above. But remember to update MLFLOW_URI in the globals.py file.
 
+# DATA
+The data used in this project is in the folder ```qubika_challenge/data/raw```. Upload the data using the name ```dataset``` and format ```.csv```
+
+
 # TRAIN process
 To train a modelo first you have to configure some globals variables in the file ```globals.py```.
 

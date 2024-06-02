@@ -1,7 +1,7 @@
 "Global variables for the project"
 
 #MLFLOW
-MLFLOW_URI="http://127.0.0.1:8080/"
+MLFLOW_URI="http://127.0.0.1:5050/"
 
 #Transformer and train data
 NUMERIC_FEATURES=['Age', 'Annual_Income', 'Credit_Score', 'Loan_Amount', 'Number_of_Open_Accounts']
